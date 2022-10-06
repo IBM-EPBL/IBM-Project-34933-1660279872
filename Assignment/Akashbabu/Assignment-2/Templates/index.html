@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+</head>
+<body>
+    <div class="header">
+        <header>Flask Application</header>
+        <form class="form1">
+            <label>Name</label><br><br>
+            <input type="text" placeholder="enter name" name="name"><br><br>
+            <label>Email id</label><br><br>
+            <input type="email" placeholder="enter email" name="email"><br><br>
+            <label>Phone no</label><br><br>
+            <input type="number" placeholder="enter number" name="phone"><br><br>
+            <label>Upload File</label><br><br>
+            <input type="file" name="file"><br><br>
+            <input type="submit" name="submit" class="button">
+        </form>
+    </div>
+</body>
+</html>
