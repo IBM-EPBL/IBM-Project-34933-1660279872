@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>First Flask Application</title>
+<link rel ="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+</head>
+<body>
+    <h1><center>First Flask Application</center></h1>
+    <br><br>
+<form action = "/login" method = "post">
+<div class="container">
+    <div class="child">
+        <p>Enter Name : <input type = "text" name = "Name"/></p>
+        <p>Enter Email : <input type = "email" name = "Email"/></p>
+        <p>Enter Phoneno : <input type = "text" name = "Phone"/></p>
+        <p>Upload Resume: <input type = "file" name = "res"/></p>
+        <p><center><input type = "submit" value = "submit" class="btn"/></center></p>
+    </div>
+</div> 
+</form>
+</body>
+</html>

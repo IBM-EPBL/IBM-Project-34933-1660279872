@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    padding:20px;
+    border: 5px solid black;
+    border-radius: 3px;
+}
+.btn{
+    border-radius: 8px;
+}
+.btn:hover{
+    background-color: yellow;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
